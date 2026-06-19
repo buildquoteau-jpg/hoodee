@@ -46,7 +46,7 @@ export default function Header() {
           </nav>
 
           <Link href="/request-a-quote" className="btn btn-primary header__cta">
-            Request a Quote
+            Request for Quotation
           </Link>
 
           <button
@@ -77,7 +77,7 @@ export default function Header() {
         <Link href="/technical-specifications" onClick={() => setMobileOpen(false)}>Technical Specifications</Link>
         <Link href="/projects" onClick={() => setMobileOpen(false)}>Projects</Link>
         <Link href="/about" onClick={() => setMobileOpen(false)}>About</Link>
-        <Link href="/request-a-quote" onClick={() => setMobileOpen(false)}>Request a Quote</Link>
+        <Link href="/request-a-quote" onClick={() => setMobileOpen(false)}>Request for Quotation</Link>
       </nav>
     </>
   );

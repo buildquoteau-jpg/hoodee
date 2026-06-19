@@ -49,7 +49,7 @@ export default function Footer() {
               <li><Link href="/window-hoods-western-australia">Window Hoods WA</Link></li>
               <li><Link href="/australia-wide-window-hood-supply">Australia-Wide Supply</Link></li>
               <li><Link href="/about">About Hoodee</Link></li>
-              <li><Link href="/request-a-quote">Request a Quote</Link></li>
+              <li><Link href="/request-a-quote">Request for Quotation</Link></li>
             </ul>
           </div>
         </div>
