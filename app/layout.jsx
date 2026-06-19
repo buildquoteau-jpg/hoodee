@@ -1,6 +1,7 @@
 import './globals.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Providers from '../components/Providers';
 
 export const metadata = {
   metadataBase: new URL('https://www.hoodee.com.au'),
@@ -40,9 +41,11 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <Providers>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
