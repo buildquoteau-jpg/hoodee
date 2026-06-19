@@ -658,7 +658,7 @@ strong { font-weight: 600; }
 /* Inner page hero */
 .page-hero {
   background-color: var(--color-charcoal);
-  padding-block: var(--space-16) var(--space-12);
+  padding-block: var(--space-10) var(--space-8);
   position: relative;
   overflow: hidden;
 }
