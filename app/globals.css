@@ -284,13 +284,29 @@ strong { font-weight: 600; }
 
 .btn-primary {
   background-color: var(--color-rust);
+  background-image: url('/images/corten-rust.avif');
+  background-size: cover;
+  background-position: center;
   color: var(--color-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background var(--transition-base);
 }
 
 .btn-primary:hover {
-  background-color: #6a3226;
   transform: translateY(-1px);
   box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover::after {
+  background: rgba(0, 0, 0, 0.18);
 }
 
 .btn-secondary {
