@@ -111,7 +111,6 @@ export default function AluminiumWindowHoodsPage() {
               },
             ].map(({ icon, title, desc }) => (
               <div key={title} className="feature-item">
-                <div className="feature-item__icon">{icon}</div>
                 <h3>{title}</h3>
                 <p>{desc}</p>
               </div>

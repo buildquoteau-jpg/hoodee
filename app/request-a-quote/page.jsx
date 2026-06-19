@@ -45,17 +45,14 @@ export default function RequestAQuotePage() {
         <div className="container">
           <div className="grid-3">
             <div className="feature-item">
-              <div className="feature-item__icon">📐</div>
               <h3>Supply Your Dimensions</h3>
               <p>Window width, projection and face height in millimetres. A drawing or window schedule helps for larger orders.</p>
             </div>
             <div className="feature-item">
-              <div className="feature-item__icon">🎨</div>
               <h3>Choose Your Colour</h3>
               <p>Any Dulux Powdertech or Interpon powder coat colour. We&apos;ll confirm availability and provide the exact colour reference.</p>
             </div>
             <div className="feature-item">
-              <div className="feature-item__icon">🚚</div>
               <h3>We Quote with Freight</h3>
               <p>Your quote will include fabrication and delivery to your project location — Perth metro, regional WA or interstate.</p>
             </div>
