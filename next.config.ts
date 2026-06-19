@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  pageExtensions: ['jsx', 'js', 'tsx', 'ts'],
+  images: {
+    unoptimized: false,
+  },
 };
 
 export default nextConfig;
