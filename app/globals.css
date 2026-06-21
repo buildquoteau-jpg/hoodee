@@ -287,6 +287,7 @@ strong { font-weight: 600; }
   background-image: url('/images/corten-rust.avif');
   background-size: cover;
   background-position: center;
+  background-blend-mode: multiply;
   color: var(--color-white);
 }
 
