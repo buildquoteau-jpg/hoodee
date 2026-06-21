@@ -285,7 +285,8 @@ strong { font-weight: 600; }
 .btn-primary {
   background-color: var(--color-rust);
   background-image: url('/images/corten-rust.avif');
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   color: var(--color-white);
 }
 
