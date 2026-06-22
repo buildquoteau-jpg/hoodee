@@ -41,7 +41,7 @@ export default function RHoodPage() {
                 alt="Hoodee R-Hood aluminium window hood with radius curved front face installed on facade"
                 width={800}
                 height={600}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
             <div className="content-split__text">

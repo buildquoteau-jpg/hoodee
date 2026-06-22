@@ -1277,13 +1277,13 @@ strong { font-weight: 600; }
 .content-split__image {
   border-radius: 4px;
   overflow: hidden;
-  aspect-ratio: 4 / 3;
 }
 
 .content-split__image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
+  object-fit: unset;
 }
 
 /* ============================================================

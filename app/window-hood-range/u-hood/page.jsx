@@ -41,7 +41,7 @@ export default function UHoodPage() {
                 alt="Hoodee U-Hood aluminium window hood installed above a residential window"
                 width={800}
                 height={600}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
             <div className="content-split__text">
@@ -115,13 +115,13 @@ export default function UHoodPage() {
                 hood element is required.
               </p>
             </div>
-            <div className="content-split__image" style={{ borderRadius: 4, overflow: 'hidden', aspectRatio: '4/3' }}>
+            <div className="content-split__image">
               <Image
                 src="/images/uhood shed house.avif"
                 alt="U-Hood aluminium window hood on a shed-style residential home"
                 width={800}
                 height={600}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
           </div>

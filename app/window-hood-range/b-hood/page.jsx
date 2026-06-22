@@ -41,7 +41,7 @@ export default function BHoodPage() {
                 alt="Hoodee B-Hood full box aluminium window hood on a building facade"
                 width={800}
                 height={600}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
             <div className="content-split__text">

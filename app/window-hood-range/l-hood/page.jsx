@@ -41,7 +41,7 @@ export default function LHoodPage() {
                 alt="Hoodee L-Hood two-sided aluminium window hood on a building facade"
                 width={800}
                 height={600}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
             <div className="content-split__text">
@@ -121,13 +121,13 @@ export default function LHoodPage() {
                 Ask About Perforated Options
               </Link>
             </div>
-            <div className="content-split__image" style={{ borderRadius: 4, overflow: 'hidden', aspectRatio: '4/3' }}>
+            <div className="content-split__image">
               <Image
                 src="/images/lhood perforated.avif"
                 alt="Perforated L-Hood aluminium window hood — perforated front face detail"
                 width={800}
                 height={600}
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
           </div>
