@@ -17,7 +17,7 @@ export const metadata = {
     siteName: 'Hoodee',
   },
   icons: {
-    icon: '/images/hoodee_logo.avif',
+    icon: '/images/hoodee_logo.png',
   },
   robots: {
     index: true,
