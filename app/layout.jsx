@@ -16,6 +16,9 @@ export const metadata = {
     locale: 'en_AU',
     siteName: 'Hoodee',
   },
+  icons: {
+    icon: '/images/hoodee_logo.avif',
+  },
   robots: {
     index: true,
     follow: true,
