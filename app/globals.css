@@ -56,6 +56,16 @@
   --shadow-lg: 0 12px 40px rgba(28, 25, 24, 0.16);
 }
 
+/* Scale content width for large monitors — single variable cascades to
+   .container and .header__inner across every page automatically */
+@media (min-width: 1536px) {
+  :root { --max-width: 1480px; }
+}
+
+@media (min-width: 1920px) {
+  :root { --max-width: 1700px; }
+}
+
 /* ============================================================
    Reset & Base
    ============================================================ */
