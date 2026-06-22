@@ -510,7 +510,7 @@ strong { font-weight: 600; }
 
 .footer {
   background-color: var(--color-charcoal);
-  color: rgba(255,255,255,0.85);
+  color: rgba(255,255,255,0.92);
   padding-top: var(--space-16);
   padding-bottom: var(--space-8);
 }
@@ -566,7 +566,7 @@ strong { font-weight: 600; }
 
 .footer__col a {
   font-size: var(--text-sm);
-  color: rgba(255,255,255,0.78);
+  color: rgba(255,255,255,0.88);
   text-decoration: none;
   transition: color var(--transition-fast);
   display: block;
@@ -600,7 +600,7 @@ strong { font-weight: 600; }
 
 .footer__bottom-links a {
   font-size: var(--text-xs);
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.75);
 }
 
 .footer__bottom-links a:hover {
