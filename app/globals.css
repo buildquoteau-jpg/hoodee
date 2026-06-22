@@ -294,10 +294,6 @@ strong { font-weight: 600; }
 
 .btn-primary {
   background-color: var(--color-rust);
-  background-image: url('/images/corten-rust.avif');
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
   color: var(--color-white);
 }
 
