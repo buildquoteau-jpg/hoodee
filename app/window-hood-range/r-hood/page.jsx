@@ -64,6 +64,7 @@ export default function RHoodPage() {
                 <span className="badge badge--rust">Contemporary</span>
                 <span className="badge badge--rust">Residential</span>
               </div>
+              <Link href="/request-a-quote" className="btn btn-primary mt-8">Request a Quote</Link>
             </div>
           </div>
         </div>

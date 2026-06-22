@@ -64,6 +64,7 @@ export default function LHoodPage() {
                 <span className="badge badge--rust">Residential</span>
                 <span className="badge badge--rust">Commercial</span>
               </div>
+              <Link href="/request-a-quote" className="btn btn-primary mt-8">Request a Quote</Link>
             </div>
           </div>
         </div>

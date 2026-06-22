@@ -63,6 +63,7 @@ export default function BHoodPage() {
                 <span className="badge badge--rust">Commercial</span>
                 <span className="badge badge--rust">Feature Windows</span>
               </div>
+              <Link href="/request-a-quote" className="btn btn-primary mt-8">Request a Quote</Link>
             </div>
           </div>
         </div>
