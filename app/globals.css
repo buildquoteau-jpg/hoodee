@@ -543,6 +543,10 @@ strong { font-weight: 600; }
   letter-spacing: -0.03em;
 }
 
+.footer p {
+  color: rgba(255,255,255,0.88);
+}
+
 .footer__tagline {
   font-size: var(--text-sm);
   line-height: 1.6;
