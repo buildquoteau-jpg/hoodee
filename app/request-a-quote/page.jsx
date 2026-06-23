@@ -12,18 +12,44 @@ export default function RequestAQuotePage() {
     <>
       <section className="page-hero">
         <div className="container">
-          <div className="page-hero__content">
-            <nav className="breadcrumb" aria-label="Breadcrumb">
-              <Link href="/">Home</Link>
-              <span>/</span>
-              <span>Request for Quotation</span>
-            </nav>
-            <span className="section-label">Get a Price</span>
-            <h1>Request for Quotation</h1>
-            <p className="page-hero__lead">
-              Tell us about your project and we&apos;ll prepare a custom quote. Residential,
-              commercial and architectural enquiries welcome.
-            </p>
+          <div className="page-hero__split">
+            <div className="page-hero__content">
+              <nav className="breadcrumb" aria-label="Breadcrumb">
+                <Link href="/">Home</Link>
+                <span>/</span>
+                <span>Request for Quotation</span>
+              </nav>
+              <span className="section-label">Get a Price</span>
+              <h1>Request for Quotation</h1>
+              <p className="page-hero__lead">
+                Tell us about your project and we&apos;ll prepare a custom quote. Residential,
+                commercial and architectural enquiries welcome.
+              </p>
+            </div>
+
+            <div className="quote-contact-card">
+              <p className="quote-contact-card__label">Get in touch directly</p>
+              <ul className="quote-contact-card__list">
+                <li>
+                  <span className="quote-contact-card__key">Email</span>
+                  <a href="mailto:perthmetalindustries@gmail.com" className="quote-contact-card__value">
+                    perthmetalindustries@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <span className="quote-contact-card__key">Phone</span>
+                  <a href="tel:0493717553" className="quote-contact-card__value">
+                    0493 717 553
+                  </a>
+                </li>
+                <li>
+                  <span className="quote-contact-card__key">Address</span>
+                  <span className="quote-contact-card__value">
+                    19A Shields Crescent<br />Booragoon WA
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
