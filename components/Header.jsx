@@ -9,6 +9,20 @@ export default function Header() {
   return (
     <>
       <header className="header">
+        <div className="header__contact-bar">
+          <div className="header__contact-inner">
+            <a href="mailto:perthmetalindustries@gmail.com" className="header__contact-item">
+              <strong>Email:</strong> perthmetalindustries@gmail.com
+            </a>
+            <a href="tel:0493717553" className="header__contact-item">
+              <strong>Ph:</strong> 0493 717 553
+            </a>
+            <span className="header__contact-item">
+              19A Shields Crescent, Booragoon WA
+            </span>
+          </div>
+        </div>
+
         <div className="header__inner">
           <Link href="/" className="header__logo">
             <span className="header__logo-text">Hoodee</span>
